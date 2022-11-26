@@ -29,3 +29,6 @@ class Reserve(models.Model):
   check_out_date = models.DateField(auto_now=True)
   date_time_create = models.DateTimeField(auto_now_add=True)
   date_time_update = models.DateTimeField(auto_now=True)
+  
+  def __str__(self):
+    return self.number_of_guests
