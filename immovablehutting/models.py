@@ -12,7 +12,12 @@ class Immoble(models.Model):
   date_time_update = models.DateTimeField(auto_now=True)
 
 class Annoucement(models.Model):
-  ...
+  immoble_id = models.ForeignKey(Immoble, on_delete=models.CASCADE)
+  publishing_plataform = models.CharField(max_length=50)
+  plataform_rate = models.FloatField(help_text="digite a taxa da plataforma. ex: 13.00 R$")
+  date_time_create = models.DateTimeField(auto_now_add=True)
+  date_time_update = models.DateTimeField(auto_now=True)
+  
   
 class Reserve(models.Model):
   ...
