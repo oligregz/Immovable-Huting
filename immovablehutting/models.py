@@ -10,14 +10,14 @@ class Immoble(models.Model):
     ('6','6'),
   ]
   title = models.CharField(max_length=255)
-  immoble_code = models.PositiveIntegerField(auto_created=True, unique=True, blank=True)
+  # immoble_code = models.BigIntegerField(max_length=10)
   guest_limit = models.IntegerField(max_length=1, choices=guests)
   number_of_bathorroms = models.IntegerField(max_length=3)
   accepted_pet = models.BooleanField(default=False)
   cleaning_price = models.IntegerField(max_length=3)
-  date_activation = models.DateTimeField(auto_now_add=True)
-  date_time_create = models.DateTimeField(auto_now_add=True)
-  date_time_update = models.DateTimeField(auto_now=True)
+  activation = models.DateField(auto_now_add=True, blank=True)
+  create = models.DateTimeField(default="2006-02-15 05:03:42")
+  update = models.DateTimeField(auto_now=True)
 
 class Annoucement(models.Model):
   immoble_id = models.ForeignKey(Immoble, on_delete=models.CASCADE)

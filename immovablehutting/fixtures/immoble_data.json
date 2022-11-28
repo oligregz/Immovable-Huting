@@ -7,7 +7,10 @@
       "guest_limit": "4",
       "number_of_bathorroms": "3",
       "accepted_pet": "False",
-      "cleaning_price": "50"
+      "cleaning_price": "50",
+      "activation": "2006-02-15",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
     }
   }
 ]
