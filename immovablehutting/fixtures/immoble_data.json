@@ -7,7 +7,7 @@
       "guest_limit": "4",
       "number_of_bathorroms": "3",
       "accepted_pet": "False",
-      "cleaning_price": "50.00"
+      "cleaning_price": 50
     }
   }
 ]
