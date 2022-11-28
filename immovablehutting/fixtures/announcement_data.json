@@ -3,9 +3,9 @@
     "model": "immovablehutting.Annoucement",
     "pk": 1,
     "fields": {
-      "immoble_id": "",
-      "publishing_plataform": "",
-      "plataform_rate": "",
+      "immoble_id": "1",
+      "publishing_plataform": "airbnb",
+      "plataform_rate": "17.50",
       "create": "2006-02-12 05:03:42",
       "update": "2006-02-23 06:02:27"
     }
@@ -14,6 +14,9 @@
     "model": "immovablehutting.Annoucement",
     "pk": 2,
     "fields": {
+      "immoble_id": "2",
+      "publishing_plataform": "netimoveis",
+      "plataform_rate": "33.20",
       "create": "2006-02-12 05:03:42",
       "update": "2006-02-23 06:02:27"
     }
@@ -22,6 +25,9 @@
     "model": "immovablehutting.Annoucement",
     "pk": 3,
     "fields": {
+      "immoble_id": "3",
+      "publishing_plataform": "airbnb",
+      "plataform_rate": "17.50",
       "create": "2006-02-12 05:03:42",
       "update": "2006-02-23 06:02:27"
     }
