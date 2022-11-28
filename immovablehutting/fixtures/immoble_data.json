@@ -13,5 +13,65 @@
       "create": "2006-02-12 05:03:42",
       "update": "2006-02-23 06:02:27"
     }
+  },
+  {
+    "model": "immovablehutting.Immoble",
+    "pk": 2,
+    "fields": {
+      "title": "Casa no Paraná",
+      "immoble_code": "20220002",
+      "guest_limit": "2",
+      "number_of_bathorroms": "1",
+      "accepted_pet": "True",
+      "cleaning_price": "200",
+      "activation": "2007-02-15",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Immoble",
+    "pk": 3,
+    "fields": {
+      "title": "Casa em São Paulo",
+      "immoble_code": "20220003",
+      "guest_limit": "3",
+      "number_of_bathorroms": "2",
+      "accepted_pet": "False",
+      "cleaning_price": "120",
+      "activation": "2006-02-15",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Immoble",
+    "pk": 4,
+    "fields": {
+      "title": "Casa no Ceara",
+      "immoble_code": "20220004",
+      "guest_limit": "4",
+      "number_of_bathorroms": "3",
+      "accepted_pet": "True",
+      "cleaning_price": "90",
+      "activation": "2006-02-15",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Immoble",
+    "pk": 5,
+    "fields": {
+      "title": "Pousada na Colômbia",
+      "immoble_code": "20220005",
+      "guest_limit": "2",
+      "number_of_bathorroms": "1",
+      "accepted_pet": "False",
+      "cleaning_price": "100",
+      "activation": "2006-02-15",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
   }
 ]
