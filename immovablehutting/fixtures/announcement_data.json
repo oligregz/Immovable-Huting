@@ -1,0 +1,29 @@
+[
+  {
+    "model": "immovablehutting.Annoucement",
+    "pk": 1,
+    "fields": {
+      "immoble_id": "",
+      "publishing_plataform": "",
+      "plataform_rate": "",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Annoucement",
+    "pk": 2,
+    "fields": {
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Annoucement",
+    "pk": 3,
+    "fields": {
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  }
+]

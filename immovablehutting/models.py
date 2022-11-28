@@ -23,8 +23,8 @@ class Annoucement(models.Model):
   immoble_id = models.ForeignKey(Immoble, on_delete=models.CASCADE)
   publishing_plataform = models.CharField(max_length=50)
   plataform_rate = models.FloatField(help_text="digite a taxa da plataforma. ex: 13.00")
-  date_time_create = models.DateTimeField(auto_now_add=True)
-  date_time_update = models.DateTimeField(auto_now=True)
+  create = models.DateTimeField(auto_now_add=True)
+  update = models.DateTimeField(auto_now=True)
  
 class Reserve(models.Model):
   guests = [
@@ -42,5 +42,5 @@ class Reserve(models.Model):
   number_of_guests = models.IntegerField(max_length=1, choices=guests)
   check_in_date = models.DateField(auto_now_add=True)
   check_out_date = models.DateField(auto_now=True)
-  date_time_create = models.DateTimeField(auto_now_add=True)
-  date_time_update = models.DateTimeField(auto_now=True)
+  create = models.DateTimeField(auto_now_add=True)
+  update = models.DateTimeField(auto_now=True)
