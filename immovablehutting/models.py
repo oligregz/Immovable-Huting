@@ -10,7 +10,7 @@ class Immoble(models.Model):
     ('6','6'),
   ]
   title = models.CharField(max_length=255)
-  # immoble_code = models.BigIntegerField(max_length=10)
+  immoble_code = models.BigIntegerField(max_length=10, blank=True, null=True)
   guest_limit = models.IntegerField(max_length=1, choices=guests)
   number_of_bathorroms = models.IntegerField(max_length=3)
   accepted_pet = models.BooleanField(default=False)

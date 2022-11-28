@@ -4,6 +4,7 @@
     "pk": 1,
     "fields": {
       "title": "Casa na Bahia",
+      "immoble_code": "20220001",
       "guest_limit": "4",
       "number_of_bathorroms": "3",
       "accepted_pet": "False",
