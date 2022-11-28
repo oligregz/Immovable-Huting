@@ -1,0 +1,122 @@
+[
+  {
+    "model": "immovablehutting.Reserve",
+    "pk": 1,
+    "fields": {
+      "reserve_code": "2022001",
+      "annoucement_id": "1",
+      "total_price": "700.23",
+      "comment_field": "Melhor lugar",
+      "number_of_guests": "2",
+      "check_in_date": "2006-02-18",
+      "check_out_date": "2006-02-23",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Reserve",
+    "pk": 2,
+    "fields": {
+      "reserve_code": "2022002",
+      "annoucement_id": "1",
+      "total_price": "431.00",
+      "comment_field": "Muito frio",
+      "number_of_guests": "1",
+      "check_in_date": "2006-02-18",
+      "check_out_date": "2006-02-23",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Reserve",
+    "pk": 3,
+    "fields": {
+      "reserve_code": "2022003",
+      "annoucement_id": "1",
+      "total_price": "551.95",
+      "comment_field": "Muito quente",
+      "number_of_guests": "1",
+      "check_in_date": "2006-02-18",
+      "check_out_date": "2006-02-23",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Reserve",
+    "pk": 4,
+    "fields": {
+      "reserve_code": "2022004",
+      "annoucement_id": "1",
+      "total_price": "297.00",
+      "comment_field": "Adorei",
+      "number_of_guests": "1",
+      "check_in_date": "2006-02-18",
+      "check_out_date": "2006-02-23",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Reserve",
+    "pk": 5,
+    "fields": {
+      "reserve_code": "2022005",
+      "annoucement_id": "2",
+      "total_price": "1394.00",
+      "comment_field": "Atendimento excelente",
+      "number_of_guests": "1",
+      "check_in_date": "2006-02-18",
+      "check_out_date": "2006-02-23",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Reserve",
+    "pk": 6,
+    "fields": {
+      "reserve_code": "2022006",
+      "annoucement_id": "3",
+      "total_price": "990.87",
+      "comment_field": "Maravilhoso",
+      "number_of_guests": "1",
+      "check_in_date": "2006-02-18",
+      "check_out_date": "2006-02-23",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Reserve",
+    "pk": 7,
+    "fields": {
+      "reserve_code": "2022007",
+      "annoucement_id": "3",
+      "total_price": "2740.00",
+      "comment_field": "Show",
+      "number_of_guests": "1",
+      "check_in_date": "2006-02-18",
+      "check_out_date": "2006-02-23",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  },
+  {
+    "model": "immovablehutting.Reserve",
+    "pk": 8,
+    "fields": {
+      "reserve_code": "2022008",
+      "annoucement_id": "3",
+      "total_price": "600.00",
+      "comment_field": "Recomendarei mil vezes",
+      "number_of_guests": "1",
+      "check_in_date": "2006-02-18",
+      "check_out_date": "2006-02-23",
+      "create": "2006-02-12 05:03:42",
+      "update": "2006-02-23 06:02:27"
+    }
+  }
+]
