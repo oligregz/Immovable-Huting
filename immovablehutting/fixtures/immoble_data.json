@@ -1,0 +1,13 @@
+[
+  {
+    "model": "immovableutting.Immoble",
+    "pk": 1,
+    "fields": {
+      "title": "Casa na Bahia",
+      "guest_limit": "4",
+      "number_of_bathorroms": "3",
+      "accepted_pet": "false",
+      "cleaning_price": "50.00"
+    }
+  }
+]
