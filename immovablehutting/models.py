@@ -18,6 +18,9 @@ class Immoble(models.Model):
   activation = models.DateField(auto_now_add=True, blank=True)
   create = models.DateTimeField(default="2006-02-15 05:03:42")
   update = models.DateTimeField(auto_now=True)
+  
+  def __str__(self):
+    return self.title
 
 class Annoucement(models.Model):
   immoble_id = models.ForeignKey(Immoble, on_delete=models.CASCADE)
@@ -25,6 +28,9 @@ class Annoucement(models.Model):
   plataform_rate = models.FloatField(help_text="digite a taxa da plataforma. ex: 13.00")
   create = models.DateTimeField(auto_now_add=True)
   update = models.DateTimeField(auto_now=True)
+  
+  def __str__(self):
+    return self.publishing_plataform  
  
 class Reserve(models.Model):
   guests = [
@@ -44,3 +50,6 @@ class Reserve(models.Model):
   check_out_date = models.DateField(auto_now=True)
   create = models.DateTimeField(auto_now_add=True)
   update = models.DateTimeField(auto_now=True)
+  
+  def __str__(self):
+    return self.comment_field
