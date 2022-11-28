@@ -1,6 +1,6 @@
 [
   {
-    "model": "immovableutting.Immoble",
+    "model": "immovablehutting.Immoble",
     "pk": 1,
     "fields": {
       "title": "Casa na Bahia",
