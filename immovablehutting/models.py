@@ -52,4 +52,4 @@ class Reserve(models.Model):
   update = models.DateTimeField(auto_now=True)
   
   def __str__(self):
-    return self.comment_field
+    return f'code:{self.reserve_code} | {self.comment_field} | {self.total_price}'
