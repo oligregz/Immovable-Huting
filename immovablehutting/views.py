@@ -23,3 +23,4 @@ class AnnoucementViewSet(viewsets.ModelViewSet):
 class ReserveViewSet(viewsets.ModelViewSet):
   queryset = Reserve.objects.all()
   serializer_class = ReserveSerializer
+  http_method_names = ['get', 'post', 'head']
