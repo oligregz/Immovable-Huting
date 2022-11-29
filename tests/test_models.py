@@ -1,5 +1,5 @@
 import pytest
-from immovablehutting.models import Immoble, Annoucement
+from immovablehutting.models import Immoble, Annoucement, Reserve
 
 # -----------------------------------------Immoble Model case tests-----------------------------------------------
 @pytest.fixture
@@ -23,7 +23,7 @@ def annoucement():
 
 
 @pytest.mark.django_db
-def test_immoble_model(annoucement):
+def test_announcement_model(annoucement):
   annoucement.save()
   
   annoucements_from_db = Annoucement.objects.all()
@@ -31,4 +31,18 @@ def test_immoble_model(annoucement):
   assert Annoucement.objects.count() == 1
   assert annoucements_from_db[0].publishing_plataform == "airbnb"
 
+# -----------------------------------------Reserve Model case tests-----------------------------------------------
+# @pytest.fixture
+# def reserve():
+#   return Reserve(reserve_code=2022010)
+
+
+# @pytest.mark.django_db
+# def test_immoble_model(annoucement):
+#   annoucement.save()
+  
+#   annoucements_from_db = Annoucement.objects.all()
+  
+#   assert Annoucement.objects.count() == 1
+#   assert annoucements_from_db[0].publishing_plataform == "airbnb"
 
