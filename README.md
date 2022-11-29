@@ -66,7 +66,7 @@ It is through her that we will carry out the requests.<br />
   - `http://127.0.0.1:8000/api/`<br />
   -This route generates the application's API routes through the GET method.<br /><br />
   ![alt text](./req_and_res_images/route_api/getapi.png)<br />
-  ![alt text](./req_and_res_images/route_api/responseapi.png)<br />
+  ![alt text](./req_and_res_images/route_api/responseapi.png)<br /><br /><br />
 
 
  `/immobles`:<br />
@@ -76,6 +76,7 @@ It is through her that we will carry out the requests.<br />
   ![alt text](./req_and_res_images/route_immobles/allimmobles.png)<br />
   -For the Post, Put or Patch methods, use the following scope in the client's body:<br />
   ![alt text](./req_and_res_images/route_immobles/bodyexemple.png)<br />
+
   ```python
   {
     "title": "Home in Miami",
@@ -93,17 +94,39 @@ It is through her that we will carry out the requests.<br />
   -A immoble can be searched for or edited by the route that receives its 'id':
   - `http://127.0.0.1:8000/api/immobles/3`<br />
   ![alt text](./req_and_res_images/route_immobles/idimmoble.png)<br />
-  ![alt text](./req_and_res_images/route_immobles/responseidimmoble.png)<br />
+  ![alt text](./req_and_res_images/route_immobles/responseidimmoble.png)<br /><br /><br />
 
- `/`:<br />
-  - `http://127.0.0.1:8000/api/`<br />
-  -This route .<br /><br />
-  ![alt text](./req_and_res_images/)<br />
-  ![alt text](./req_and_res_images/)<br />
+ `/announcements`:<br />
+  - `http://127.0.0.1:8000/api/annoucements/`<br />
+  -This route works with the same principles as immobles with restrictions only on the DELETE method.<br /><br />
+  ![alt text](./req_and_res_images/route_announcements/getannouncements.png)<br />
+  ![alt text](./req_and_res_images/route_announcements/announcements.png)<br /> <br />
+
+  -Its search method for just one ad is similar to that of real estate, passing the 'id' at the end of the url:<br /><br />
+  ![alt text](./req_and_res_images/route_announcements/idannouncements.png)<br />
+  ![alt text](./req_and_res_images/route_announcements/idresponse.png)<br /> <br />
+
+  -To use the update methods, pass the url with the 'id' of the ad and set the json model in the body with the data you want to change:<br />
+
+  ```python
+  {
+    "publishing_plataform": "airbnb",
+    "plataform_rate": 22.7,
+  }
+  ```
+- `http://127.0.0.1:8000/api/annoucements/1/`<br />
+  ![alt text](./req_and_res_images/route_announcements/patchannouncement.png)<br />
+  ![alt text](./req_and_res_images/route_announcements/json_in_body.png)<br />
+  ![alt text](./req_and_res_images/route_announcements/patch_sucess.png)<br /><br /><br />
 
 
- `/`:<br />
-  - `http://127.0.0.1:8000/api/`<br />
-  -This route .<br /><br />
-  ![alt text](./req_and_res_images/)<br />
-  ![alt text](./req_and_res_images/)<br />
+ `/reserves`:<br />
+  - `http://127.0.0.1:8000/api/reserves/`<br />
+  -This route works on the same principles as real estate and listings with restrictions only on update methods.<br /><br />
+  ![alt text](./req_and_res_images/route_reserves/get_reserves.png)<br />
+  ![alt text](./req_and_res_images/route_reserves/res_reserves.png)<br /> <br />
+
+  -Its search method for just one reserve is similar to that of immoble and announcements, passing the 'id' at the end of the url:<br />
+- `http://127.0.0.1:8000/api/reserves/3/`
+  ![alt text](./req_and_res_images/route_reserves/get_for_id.png)<br />
+  ![alt text](./req_and_res_images/route_reserves/res_id.png)<br /> <br />
