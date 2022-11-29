@@ -23,9 +23,9 @@ class Immoble(models.Model):
     return self.title
 
 class Annoucement(models.Model):
-  immoble_id = models.ForeignKey(Immoble, on_delete=models.CASCADE)
+  immoble_id = models.ForeignKey(Immoble, on_delete=models.CASCADE, blank=True, null=True)
   publishing_plataform = models.CharField(max_length=50, blank=True, null=True)
-  plataform_rate = models.FloatField(help_text="digite a taxa da plataforma. ex: 13.00")
+  plataform_rate = models.FloatField(help_text="digite a taxa da plataforma. ex: 13.00", blank=True, null=True)
   create = models.DateTimeField(auto_now_add=True)
   update = models.DateTimeField(auto_now=True)
   

@@ -1,6 +1,7 @@
 import pytest
-from immovablehutting.models import Immoble
+from immovablehutting.models import Immoble, Annoucement
 
+# -----------------------------------------Immoble Model case tests-----------------------------------------------
 @pytest.fixture
 def immoble():
   return Immoble(title="Casa em Salinas")
@@ -14,3 +15,20 @@ def test_immoble_model(immoble):
   
   assert len(immobles_from_db) == 1
   assert immobles_from_db[0].title == "Casa em Salinas"
+
+# -----------------------------------------Annoucement Model case tests-----------------------------------------------
+@pytest.fixture
+def annoucement():
+  return Annoucement(publishing_plataform="airbnb")
+
+
+@pytest.mark.django_db
+def test_immoble_model(annoucement):
+  annoucement.save()
+  
+  annoucements_from_db = Annoucement.objects.all()
+  
+  assert Annoucement.objects.count() == 1
+  assert annoucements_from_db[0].publishing_plataform == "airbnb"
+
+
