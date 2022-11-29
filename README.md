@@ -41,7 +41,7 @@ ATTENTION: make sure you have python installed on your machine and stay tuned wi
 
 <summary><strong>Get ready and follow the steps</strong></summary><br />
 
-  ~ create a directory on your machine and access it with the terminal;
+  ~ create a directory on your machine and access it with the terminal:
   ```bash
     $ mkdir example_directory && cd example_directory
   ```  
