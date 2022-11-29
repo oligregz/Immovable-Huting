@@ -10,8 +10,8 @@ class ImmobleViewSet(viewsets.ModelViewSet):
 class AnnoucementViewSet(viewsets.ModelViewSet):
   queryset = Annoucement.objects.all()
   serializer_class = AnnoucementSerializer
+  http_method_names = ['get', 'post', 'head', 'patch', 'put']
 
-  
 class ReserveViewSet(viewsets.ModelViewSet):
   queryset = Reserve.objects.all()
   serializer_class = ReserveSerializer
