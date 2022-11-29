@@ -100,7 +100,7 @@ It is through her that we will carry out the requests.<br />
   -For the Post, Put or Patch methods, use the following scope in the client's body:<br />
   ![alt text](./req_and_res_images/route_immobles/bodyexemple.png)<br />
 
-  ```python
+```python
   {
     "title": "Home in Miami",
     "immoble_code": 20220017,
@@ -110,14 +110,16 @@ It is through her that we will carry out the requests.<br />
     "cleaning_price": 70,
     "activation": "2006-02-15",
   }
-  ```
-  <br /><br />
-  -Select the update method and make the request<br />
+```
+  <br />
+
+  -Select the update method and make the request:<br />
   ![alt text](./req_and_res_images/route_immobles/http.png)<br />
   -A immoble can be searched for or edited by the route that receives its 'id':
   - `http://127.0.0.1:8000/api/immobles/3`<br />
   ![alt text](./req_and_res_images/route_immobles/idimmoble.png)<br />
-  ![alt text](./req_and_res_images/route_immobles/responseidimmoble.png)<br /><br /><br />
+  ![alt text](./req_and_res_images/route_immobles/responseidimmoble.png)<br />
+  <br /><br />
 
  `/announcements`:<br />
   - `http://127.0.0.1:8000/api/annoucements/`<br />
