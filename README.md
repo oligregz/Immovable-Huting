@@ -38,17 +38,40 @@ The application has three APIs, one for Immobles, one for Annoucements and the o
 
 ATTENTION: make sure you have python installed on your machine and stay tuned with the version.<br />
 
-<details>
-  <summary><strong>Get ready and follow the steps</strong></summary><br />
 
-  ~ create a directory on your machine and access it with the terminal;<br />
-  ~ create and access the virtual environment:<br />
-    - `python3 -m venv .venv && source .venv/bin/activate` <br />
+<summary><strong>Get ready and follow the steps</strong></summary><br />
+
+  ~ create a directory on your machine and access it with the terminal;
+  ```bash
+    $ mkdir example_directory && cd example_directory
+  ```  
+  ~ create and access the virtual environment:
+  ```bash
+    $ python3 -m venv .venv && source .venv/bin/activate
+  ```
   ~ install the dependencies:<br />
-    - `python3 -m pip install -r requirements.txt` <br/>
+  ```bash
+    $ python3 -m pip install -r requirements.txt
+  ```
   ~ now start the API:<br />
-    - `python3 manage.py runserver`
-</details><br /><br />
+  ```bash
+    $ python3 manage.py runserver
+  ```  
+<br /><br />
+
+# Tests<br />
+
+-The APIs have unit tests implemented by the 'pytest' library present in the 'tests' directory where each test checks the existence and creation of each application's API.
+
+
+<summary><strong></strong></summary><br />
+
+~ o run the tests, run the following command in your terminal:<br />
+ ```bash
+  $ python3 -m pytest
+```
+
+<br /><br />
 
 # Consuming the API<br />
 
