@@ -51,7 +51,7 @@ class Reserve(models.Model):
   ]
   reserve_code = models.PositiveIntegerField(auto_created=True, unique=True)
   annoucement_id = models.ForeignKey(Annoucement, on_delete=models.SET_NULL, related_name="id_annoucement", null=True)
-  total_price = models.FloatField(help_text="digite o valor da reserva total da reserva(ex: 952.38)")
+  total_price = models.FloatField(help_text="digite o valor da reserva total da reserva(ex: 952.38)", blank=True, null=True)
   comment_field = models.CharField(max_length=255, blank=True, null=True)
   number_of_guests = models.IntegerField(max_length=1, choices=guests, blank=True, null=True)
   check_in_date = models.DateField(auto_now_add=True)

@@ -32,17 +32,17 @@ def test_announcement_model(annoucement):
   assert annoucements_from_db[0].publishing_plataform == "airbnb"
 
 # -----------------------------------------Reserve Model case tests-----------------------------------------------
-# @pytest.fixture
-# def reserve():
-#   return Reserve(reserve_code=2022010)
+@pytest.fixture
+def reserve():
+  return Reserve(reserve_code=2022010)
 
 
-# @pytest.mark.django_db
-# def test_immoble_model(annoucement):
-#   annoucement.save()
+@pytest.mark.django_db
+def test_reserve_model(reserve):
+  reserve.save()
   
-#   annoucements_from_db = Annoucement.objects.all()
+  reserve_from_db = Reserve.objects.all()
   
-#   assert Annoucement.objects.count() == 1
-#   assert annoucements_from_db[0].publishing_plataform == "airbnb"
+  assert Reserve.objects.count() == 1
+  assert reserve_from_db[0].reserve_code == 2022010
 
