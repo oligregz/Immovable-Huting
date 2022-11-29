@@ -30,7 +30,15 @@ class Annoucement(models.Model):
   update = models.DateTimeField(auto_now=True)
   
   def __str__(self):
-    return self.publishing_plataform  
+    return self.publishing_plataform
+  
+  def get_actions(self, request):
+    actions = super(models, self).get_actions(request)
+    del actions['delete_selected']
+    return actions
+  
+  def has_delete_permission(self, request, obj=None):
+    return False
  
 class Reserve(models.Model):
   guests = [
