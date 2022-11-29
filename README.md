@@ -91,6 +91,7 @@ It is through her that we will carry out the requests.<br />
   -Select the update method and make the request<br />
   ![alt text](./req_and_res_images/route_immobles/http.png)<br />
   -A immoble can be edited by the route that receives its 'id':
+  - `http://127.0.0.1:8000/api/immobles/3`<br />
   ![alt text](./req_and_res_images/route_immobles/idimmoble.png)<br />
   ![alt text](./req_and_res_images/route_immobles/responseidimmoble.png)<br />
 
