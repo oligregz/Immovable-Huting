@@ -2,19 +2,19 @@
 
 This project is an ApiRest that integrates a property search system, with its ads and reservations.
 
-<details>
-  <summary><strong>🤷 What was used?</strong></summary><br />
 
-  <strong>Technologies and Skills</strong><br />
-  ~ Python<br />
-  ~ Django<br />
-  ~ ORM(Django Rest Framework)<br />
-  ~ SQL Data Base(sqlite3)<br />
-  ~ Pytest<br />
-  ~ Black<br />
-  ~ Flake8<br />
-  ~ Seeders(fixture)<br />
-</details><br />
+<summary><strong>🤷 What was used?</strong></summary><br />
+
+<strong>Technologies and Skills</strong><br />
+~ Python<br />
+~ Django<br />
+~ ORM(Django Rest Framework)<br />
+~ SQL Data Base(sqlite3)<br />
+~ Pytest<br />
+~ Black<br />
+~ Flake8<br />
+~ Seeders(fixture)<br />
+<br />
 
 <summary><strong>👨‍💻 How it works ?</strong></summary><br />
 
