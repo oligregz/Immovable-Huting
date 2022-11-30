@@ -79,7 +79,7 @@ ATTENTION: make sure you have python installed on your machine and stay tuned wi
 
 The initial database data is provided through seeders implemented with fixture.<br />
 
-This data is in the immovablehutting/fixtures directory, each file corresponds to a table in the database(you can change it if you want, but don't do it if you don't understand table reallocation).
+This data is in the `immovablehutting/fixtures/` directory, each file corresponds to a table in the database(you can change it if you want, but don't do it if you don't understand table reallocation).
 
 ~ to provide data automatically, use the command:
 ```bash
@@ -89,7 +89,7 @@ python3 manage.py loaddata immoble_data.json announcement_data.json reserve_data
 
 # Tests<br />
 
--The APIs have unit tests implemented by the 'pytest' library present in the 'tests' directory where each test checks the existence and creation of each application's API.<br />
+-The APIs have unit tests implemented by the 'pytest' library present in the `tests/` directory where each test checks the existence and creation of each application's API.<br />
 
 ~ o run the tests, run the following command in your terminal:<br />
 ```bash
@@ -100,7 +100,7 @@ python3 -m pytest
 
 # Consuming the API<br />
 
--After starting the application, your cmd will look like the one in the image below, where it indicates a port to be accessed (eg: 'http://127.0.0.1:8000/').
+-After starting the application, your cmd will look like the one in the image below, where it indicates a port to be accessed (ex: 'http://127.0.0.1:8000/').
 It is through her that we will carry out the requests.<br />
 -Requests will be made from the `/api` route. ex.: http://127.0.0.1:8000/api/ .<br />
 -If you don't have a client (such as 'Insomnia, Postman' or any other) installed on your machine, you can carry out the requests through your browser by placing the mouse cursor over the route and pressing 'Ctrl + click' .<br />
