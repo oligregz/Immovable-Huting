@@ -61,6 +61,14 @@ ATTENTION: make sure you have python installed on your machine and stay tuned wi
   ```bash
   python3 -m pip install -r requirements.txt
   ```
+
+  ~ prepare the environment so that it can provide data to the database with the commands:<br />
+  ```bash
+  python3 manage.py makemigrations
+  ```
+  ```bash
+  python3 manage.py migrate
+  ```
   ~ now start the application<br />
   ```bash
   python3 manage.py runserver
