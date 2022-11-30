@@ -57,7 +57,7 @@ ATTENTION: make sure you have python installed on your machine and stay tuned wi
   ```bash
     $ python3 -m pip install -r requirements.txt
   ```
-  ~ now start the API:<br />
+  ~ now start the application<br />
   ```bash
     $ python3 manage.py runserver
   ```  
