@@ -49,7 +49,7 @@ ATTENTION: make sure you have python installed on your machine and stay tuned wi
   ```bash
      git clone git@github.com:oligregz/Immovable-Huting.git
   ```
-    ~ access the project directory:
+  ~ access the project directory:
   ```bash
      cd Immovable-Huting
   ```
