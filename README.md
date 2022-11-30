@@ -75,13 +75,25 @@ ATTENTION: make sure you have python installed on your machine and stay tuned wi
   ```  
 <br /><br />
 
+# Seeders: Providing initial data to the database automatically<br />
+
+The initial database data is provided through seeders implemented with fixture.<br />
+
+This data is in the immovablehutting/fixtures directory, each file corresponds to a table in the database(you can change it if you want, but don't do it if you don't understand table reallocation).
+
+~ to provide data automatically, use the command:
+```bash
+python3 manage.py loaddata immoble_data.json announcement_data.json reserve_data.json
+```
+<br /><br />
+
 # Tests<br />
 
 -The APIs have unit tests implemented by the 'pytest' library present in the 'tests' directory where each test checks the existence and creation of each application's API.<br />
 
 ~ o run the tests, run the following command in your terminal:<br />
- ```bash
-   python3 -m pytest
+```bash
+python3 -m pytest
 ```
 
 <br /><br />
