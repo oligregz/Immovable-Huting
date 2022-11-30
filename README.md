@@ -44,7 +44,11 @@ ATTENTION: make sure you have python installed on your machine and stay tuned wi
   ~ create a directory on your machine and access it with the terminal:
   ```bash
     $ mkdir example_directory && cd example_directory
-  ```  
+  ```
+  ~ clone the repository:
+  ```bash
+    $ git clone git@github.com:oligregz/Immovable-Huting.git
+  ```
   ~ create and access the virtual environment:
   ```bash
     $ python3 -m venv .venv && source .venv/bin/activate
