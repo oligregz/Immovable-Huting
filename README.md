@@ -65,10 +65,7 @@ ATTENTION: make sure you have python installed on your machine and stay tuned wi
 
 # Tests<br />
 
--The APIs have unit tests implemented by the 'pytest' library present in the 'tests' directory where each test checks the existence and creation of each application's API.
-
-
-<summary><strong></strong></summary><br />
+-The APIs have unit tests implemented by the 'pytest' library present in the 'tests' directory where each test checks the existence and creation of each application's API.<br />
 
 ~ o run the tests, run the following command in your terminal:<br />
  ```bash
