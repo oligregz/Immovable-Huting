@@ -43,27 +43,27 @@ ATTENTION: make sure you have python installed on your machine and stay tuned wi
 
   ~ create a directory on your machine and access it with the terminal:
   ```bash
-     mkdir example_directory && cd example_directory
+  mkdir example_directory && cd example_directory
   ```
   ~ clone the repository:
   ```bash
-     git clone git@github.com:oligregz/Immovable-Huting.git
+  git clone git@github.com:oligregz/Immovable-Huting.git
   ```
   ~ access the project directory:
   ```bash
-     cd Immovable-Huting
+  cd Immovable-Huting
   ```
   ~ create and access the virtual environment:
   ```bash
-     python3 -m venv .venv && source .venv/bin/activate
+  python3 -m venv .venv && source .venv/bin/activate
   ```
   ~ install the dependencies:<br />
   ```bash
-    $ python3 -m pip install -r requirements.txt
+  python3 -m pip install -r requirements.txt
   ```
   ~ now start the application<br />
   ```bash
-     python3 manage.py runserver
+  python3 manage.py runserver
   ```  
 <br /><br />
 
