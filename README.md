@@ -47,7 +47,7 @@ ATTENTION: make sure you have python installed on your machine and stay tuned wi
   ```
   ~ clone the repository:
   ```bash
-  git clone git@github.com:oligregz/Immovable-Huting.git
+  git clone https://github.com/oligregz/Immovable-Huting.git
   ```
   ~ access the project directory:
   ```bash
