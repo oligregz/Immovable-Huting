@@ -53,6 +53,22 @@ ATTENTION: make sure you have python installed on your machine and stay tuned wi
   ```bash
   cd Immovable-Huting
   ```
+  <br />
+
+  > <strong>The application can be started in two ways:</strong>
+
+  <strong>1) with docker in containers using PostgreSQL as the database</strong><br />
+
+  - Change .env.example name file to .env and config your variables
+
+  ```bash
+  docker-compose up --build -d
+  ```
+  <br />
+
+
+  <strong>2) locally where sqlite3 will be the application database</strong><br />
+
   ~ create and access the virtual environment:
   ```bash
   python3 -m venv .venv && source .venv/bin/activate
